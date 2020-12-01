@@ -1,5 +1,6 @@
 def reverse_each_word(text)
   index = 0;
-  array = 
+  array = text.split(" ");
   text.split(" ").each do |x|
-    x = 
+    x = array[index].reverse;
+  end
